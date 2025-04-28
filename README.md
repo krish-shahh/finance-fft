@@ -1,7 +1,7 @@
 # High-Performance Iterative FFT with Financial Application
 
 ## Overview
-This project implements a **high-performance, radix-2 iterative Fast Fourier Transform (FFT)** from scratch in C, parallelized using **OpenMP** and scaled up to 2^{24} elements.  
+This project implements a **high-performance, radix-2 iterative Fast Fourier Transform (FFT)** from scratch in C, parallelized using **OpenMP** and scaled up to 2^24 elements.  
 We apply this FFT to **real financial data (AAPL and SPY log returns)** and analyze performance using techniques like **roofline modeling**, **memory behavior analysis**, and **thread scaling**.
 
 ## Key Features
